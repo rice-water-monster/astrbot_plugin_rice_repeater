@@ -1,0 +1,20 @@
+{
+  "passive_enable": {
+    "description": "被动复读开关",
+    "type": "bool",
+    "hint": "开启后，聊天里出现「米饭」相关字样时有概率触发复读，可能变吵，默认关闭。",
+    "default": false
+  },
+  "passive_probability": {
+    "description": "被动复读概率",
+    "type": "float",
+    "hint": "0 ~ 1 之间的小数，0.05 表示 5% 概率。",
+    "default": 0.05
+  },
+  "passive_keywords": {
+    "description": "被动触发关键词",
+    "type": "list",
+    "hint": "出现其中任一关键词才可能触发。",
+    "default": ["米饭", "干饭", "饿了"]
+  }
+}
