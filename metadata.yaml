@@ -1,0 +1,20 @@
+name: astrbot_plugin_rice_repeater
+display_name: 米饭复读机
+author: 吧务删我我还发
+version: 0.1.0
+desc: 一只只会喊「米饭呢」的蓝色大肥鱼。提供 /米饭、/抽象 指令，可选被动触发时随机复读一句抽象话术。
+short_desc: 米饭呢？先喂我一口。
+repo: https://github.com/yourname/astrbot_plugin_rice_repeater
+astrbot_version: ">=4.16"
+support_platforms:
+  - aiocqhttp
+  - qq_official
+  - telegram
+  - wecom
+  - lark
+  - dingtalk
+  - kook
+tags:
+  - 整活
+  - 复读
+  - 米饭
