@@ -4,7 +4,7 @@ author: 吧务删我我还发
 version: 0.1.0
 desc: 一只只会喊「米饭呢」的蓝色大肥鱼。提供 /米饭、/抽象 指令，可选被动触发时随机复读一句抽象话术。
 short_desc: 米饭呢？先喂我一口。
-repo: https://github.com/yourname/astrbot_plugin_rice_repeater
+repo: https://github.com/rice-water-monster/astrbot_plugin_rice_repeater
 astrbot_version: ">=4.16"
 support_platforms:
   - aiocqhttp
